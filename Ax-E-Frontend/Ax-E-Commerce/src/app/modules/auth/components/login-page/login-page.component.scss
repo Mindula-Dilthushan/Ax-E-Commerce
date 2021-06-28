@@ -1,28 +1,81 @@
-.main-wrap{
+.main-wrap {
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: linear-gradient(to right top, #2980b9, #2b84bf, #2d89c5, #2f8dcc, #3192d2, #389dd8, #42a9de, #4eb4e3, #6dc8e7, #8edbec, #b2edf2, #d5fffc);;
 }
-.content-wrap{
+
+.content-wrap {
   width: 75%;
   height: 70%;
-  border: 1px black solid;
   display: flex;
+  background-color: white;
+  border-radius: 40px;
 }
-.right{
-  width: 50%;
-  flex: 1;
-  border: 1px red solid;
-}
-.left{
-  width: 50%;
-  flex: 1;
-  border: 1px red solid;
 
-  img{
+.left {
+  width: 50%;
+  flex: 1;
+
+  img {
     width: 100%;
     height: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
   }
 }
+
+.right {
+  width: 50%;
+  flex: 1;
+
+  .axLogo{
+    position: fixed;
+    width: 140px;
+    height: 140px;
+    left: 75%;
+    top: 17%;
+  }
+  .business-welcome {
+    font-weight: bold;
+    padding: 10px;
+    position: fixed;
+    left: 58%;
+    top: 18%;
+    font-size: 1.8rem;
+  }
+
+  .business-name {
+    font-weight: bold;
+    padding: 10px;
+    position: fixed;
+    left: 58.3%;
+    top: 24.5%;
+    font-size: 1.2rem;
+    color: #00a3ff;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
