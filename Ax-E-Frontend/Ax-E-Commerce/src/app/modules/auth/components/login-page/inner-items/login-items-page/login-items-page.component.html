@@ -1,1 +1,38 @@
-<p>login-items-page works!</p>
+<!--Mindula Dilthushan-->
+<!--Alpha X Software Company-->
+<!--Ax E Commerce v1.0.0-->
+<!--21-06-28-->
+<div class="login-outer">
+  <form class="login-form">
+
+    <!--Star Email Text Fields-->
+    <mat-form-field class="email-field" appearance="outline">
+      <input type="email" matInput class="txtEmail" placeholder="    Enter Email Address" style="font-size: 0.9rem">
+      <mat-error *ngIf="loginForm.get('email')?.touched && !loginForm.get('email')?.invalid">
+        Please enter a valid email address
+      </mat-error>
+    </mat-form-field>
+    <!--End Email Text Fields-->
+
+    <!--Star Password Text Fields-->
+    <mat-form-field class="password-field" appearance="outline">
+      <input type="password" matInput class="txtPassword"  placeholder="    Enter Password" style="font-size: 0.9rem;">
+      <mat-error *ngIf="loginForm.get('password')?.touched && !loginForm.get('password')?.invalid">
+        Please enter a valid password
+      </mat-error>
+    </mat-form-field>
+    <!--End Password Text Fields-->
+
+    <div class="spanForgotPassword"> <span>Forgot password? </span></div>
+    <button mat-raised-button class="btnSignIn">Sign In</button>
+    <div class="txtSignUp"> <p>Or Sign Up Using </p></div>
+    <div class="imgSocial">
+      <img class="fb" src="assets/fb.png">
+      <img class="twitter" src="assets/twitter.png">
+      <img class="google" src="assets/g+.png">
+    </div>
+  </form>
+  <li routerLinkActive="active-route" routerLink="/auth/login/register" class="linkSignUp" style="display: block">
+    <span style="font-weight: bold">Create An Account ? Sign Up</span>
+  </li>
+</div>

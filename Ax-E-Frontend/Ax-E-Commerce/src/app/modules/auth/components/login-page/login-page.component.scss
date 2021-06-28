@@ -1,3 +1,7 @@
+//Mindula Dilthushan
+//Alpha X Software Company
+//Ax E Commerce v1.0.0
+//21-06-28
 .main-wrap {
   width: 100%;
   height: 100vh;
@@ -35,61 +39,48 @@
     position: fixed;
     width: 140px;
     height: 140px;
-    left: 75%;
-    top: 17%;
+    left: 60%;
+    top: 23%;
   }
 
   .business-welcome {
-    font-weight: bold;
     padding: 10px;
     position: fixed;
-    left: 58%;
+    left: 57%;
     top: 18%;
-    font-size: 1.8rem;
-  }
-
-  .business-name {
-    font-weight: bold;
-    padding: 10px;
-    position: fixed;
-    left: 58.3%;
-    top: 24.5%;
-    font-size: 1.2rem;
-    color: #00a3ff;
+    font-size: 2rem;
   }
 
   .login-details-area {
     width: 430px;
     height: 350px;
-    border: #00a3ff 1px solid;
     position: fixed;
     top: 31%;
     left: 51%;
     justify-content: center;
     align-items: center;
   }
-  .list{
+
+  .list {
     margin: 0;
     padding: 0;
 
-    li{
+    li {
       display: inline;
-      border: #2b84bf 1px solid;
       padding: 4px 10px;
-      border-radius: 10px;
     }
-    li:hover{
-      background-color: #2b84bf;
-      cursor : pointer;
-      color: white;
+
+    li:hover {
+      cursor: pointer;
+      color: #2b84bf;
     }
   }
 }
 
-.active-route{
-  background-color: #2b84bf;
-  color: white;
+.active-route {
+  color: #2b84bf;
 }
+
 
 
 

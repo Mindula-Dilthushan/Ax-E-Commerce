@@ -1,0 +1,101 @@
+//Mindula Dilthushan
+//Alpha X Software Company
+//Ax E Commerce v1.0.0
+//21-06-28
+.login-outer {
+  padding: 35px;
+}
+
+.login-form {
+  min-width: 150px;
+  max-width: 350px;
+  width: 100%;
+  padding: 10px;
+  top: 38%;
+  position: fixed;
+
+  .email-field {
+    width: 100%;
+    cursor: text;
+    font-weight: bold;
+  }
+
+  .password-field {
+    width: 100%;
+    cursor: text;
+    font-weight: bold;
+  }
+}
+
+.btnSignIn {
+  width: 350px;
+  color: #2b84bf;
+  font-weight: bold;
+}
+
+.btnSignIn:hover {
+  background-color: #4eb4e3;
+  color: white;
+}
+
+.spanForgotPassword {
+  position: fixed;
+  top: 57.5%;
+  left: 69%;
+  cursor: pointer;
+  color: #939393;
+  font-weight: bold;
+}
+
+.spanForgotPassword:hover {
+  color: #4eb4e3;
+}
+
+.txtSignUp {
+  padding: 10px;
+  margin: 0;
+  color: #939393;
+  font-weight: bolder;
+  position: relative;
+  left: 109px;
+  top: 10px;
+}
+
+.imgSocial {
+  height: 30px;
+
+  .fb {
+    position: absolute;
+    left: 124px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .twitter {
+    position: absolute;
+    left: 167px;
+    cursor: pointer;
+  }
+
+  .google {
+    position: absolute;
+    left: 213px;
+    width: 30px;
+    cursor: pointer;
+  }
+}
+
+.linkSignUp {
+  position: fixed;
+  bottom: 18%;
+  left: 59.3%;
+  color: #939393;
+  cursor: pointer;
+}
+
+.linkSignUp:hover {
+  color: #4eb4e3;
+}
+
+
+

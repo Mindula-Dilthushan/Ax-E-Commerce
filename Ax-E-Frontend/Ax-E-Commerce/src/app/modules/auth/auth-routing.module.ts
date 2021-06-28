@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 import {LoginPageComponent} from "./components/login-page/login-page.component";
 import {SignUpItemsPageComponent} from "./components/login-page/inner-items/sign-up-items-page/sign-up-items-page.component";
 import {LoginItemsPageComponent} from "./components/login-page/inner-items/login-items-page/login-items-page.component";
