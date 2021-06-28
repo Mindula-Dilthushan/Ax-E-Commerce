@@ -9,6 +9,9 @@ const routes: Routes = [
   { path: 'login', component: LoginPageComponent,
     children : [
       {
+        path : '', component : LoginItemsPageComponent
+      },
+      {
         path : 'register', component : SignUpItemsPageComponent
       },
       {
