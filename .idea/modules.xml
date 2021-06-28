@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ax-E-Backend/Ax-E-Backend.iml" filepath="$PROJECT_DIR$/Ax-E-Backend/Ax-E-Backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ax-E-DB/Ax-E-DB.iml" filepath="$PROJECT_DIR$/Ax-E-DB/Ax-E-DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ax-E-Documents/Ax-E-Documents.iml" filepath="$PROJECT_DIR$/Ax-E-Documents/Ax-E-Documents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ax-E-Frontend/Ax-E-Frontend.iml" filepath="$PROJECT_DIR$/Ax-E-Frontend/Ax-E-Frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ax-E-Util/Ax-E-Util.iml" filepath="$PROJECT_DIR$/Ax-E-Util/Ax-E-Util.iml" />
+    </modules>
+  </component>
+</project>
