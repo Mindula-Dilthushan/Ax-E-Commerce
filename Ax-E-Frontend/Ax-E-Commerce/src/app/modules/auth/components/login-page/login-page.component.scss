@@ -6,8 +6,8 @@
   align-items: center;
 }
 .content-wrap{
-  width: 90%;
-  height: 85%;
+  width: 75%;
+  height: 70%;
   border: 1px black solid;
   display: flex;
 }
@@ -20,4 +20,9 @@
   width: 50%;
   flex: 1;
   border: 1px red solid;
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
 }
