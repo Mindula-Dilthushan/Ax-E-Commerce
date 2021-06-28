@@ -7,6 +7,17 @@
 }
 .content-wrap{
   width: 90%;
-  height: 90%;
+  height: 85%;
   border: 1px black solid;
+  display: flex;
+}
+.right{
+  width: 50%;
+  flex: 1;
+  border: 1px red solid;
+}
+.left{
+  width: 50%;
+  flex: 1;
+  border: 1px red solid;
 }
