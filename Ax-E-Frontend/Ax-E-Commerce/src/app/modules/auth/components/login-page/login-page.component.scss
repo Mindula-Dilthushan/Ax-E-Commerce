@@ -31,13 +31,14 @@
   width: 50%;
   flex: 1;
 
-  .axLogo{
+  .axLogo {
     position: fixed;
     width: 140px;
     height: 140px;
     left: 75%;
     top: 17%;
   }
+
   .business-welcome {
     font-weight: bold;
     padding: 10px;
@@ -56,6 +57,16 @@
     font-size: 1.2rem;
     color: #00a3ff;
   }
+
+  .login-details-area {
+    width: 430px;
+    height: 350px;
+    border: #00a3ff 1px solid;
+    position: fixed;
+    top: 31%;
+    left: 51%;
+  }
+
 }
 
 
