@@ -11,6 +11,9 @@ import { LoginPageComponent } from './components/login-page/login-page.component
     AuthComponent,
     LoginPageComponent
   ],
+  exports: [
+    LoginPageComponent
+  ],
   imports: [
     CommonModule,
     AuthRoutingModule
