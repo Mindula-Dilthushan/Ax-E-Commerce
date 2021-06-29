@@ -3,28 +3,28 @@
 <!--Ax E Commerce v1.0.0-->
 <!--21-06-28-->
 <div class="login-outer">
-  <form class="login-form">
+  <form class="login-form" [formGroup]="loginForm">
 
     <!--Star Email Text Fields-->
     <mat-form-field class="email-field" appearance="outline">
-      <input type="email" matInput class="txtEmail" placeholder="    Enter Email Address" style="font-size: 0.9rem">
+      <input type="email" matInput formControlName="email" class="txtEmail" placeholder="    Enter Email Address" style="font-size: 0.9rem">
       <mat-error *ngIf="loginForm.get('email')?.touched && !loginForm.get('email')?.invalid">
-        Please enter a valid email address
+        <p style="position:relative; top: 10%">Please enter a valid email address</p>
       </mat-error>
     </mat-form-field>
     <!--End Email Text Fields-->
 
     <!--Star Password Text Fields-->
     <mat-form-field class="password-field" appearance="outline">
-      <input type="password" matInput class="txtPassword"  placeholder="    Enter Password" style="font-size: 0.9rem;">
+      <input type="password" matInput formControlName="password" class="txtPassword"  placeholder="    Enter Password" style="font-size: 0.9rem;">
       <mat-error *ngIf="loginForm.get('password')?.touched && !loginForm.get('password')?.invalid">
-        Please enter a valid password
+        <p>Please enter a valid password</p>
       </mat-error>
     </mat-form-field>
     <!--End Password Text Fields-->
 
     <div class="spanForgotPassword"> <span>Forgot password? </span></div>
-    <button mat-raised-button class="btnSignIn">Sign In</button>
+    <button [disabled]="loginForm.invalid" mat-raised-button class="btnSignIn">Sign In</button>
     <div class="txtSignUp"> <p>Or Sign Up Using </p></div>
     <div class="imgSocial">
       <img class="fb" src="assets/fb.png">

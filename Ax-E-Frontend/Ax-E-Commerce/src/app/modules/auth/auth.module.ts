@@ -8,6 +8,7 @@ import {LoginItemsPageComponent} from './components/login-page/inner-items/login
 import {SignUpItemsPageComponent} from './components/login-page/inner-items/sign-up-items-page/sign-up-items-page.component';
 import {MatInputModule} from "@angular/material/input";
 import {MatButtonModule} from "@angular/material/button";
+import {ReactiveFormsModule} from "@angular/forms";
 
 
 @NgModule({
@@ -20,12 +21,13 @@ import {MatButtonModule} from "@angular/material/button";
   exports: [
     LoginPageComponent
   ],
-  imports: [
-    CommonModule,
-    AuthRoutingModule,
-    MatInputModule,
-    MatButtonModule,
-  ]
+    imports: [
+        CommonModule,
+        AuthRoutingModule,
+        MatInputModule,
+        MatButtonModule,
+        ReactiveFormsModule,
+    ]
 })
 export class AuthModule {
 }
