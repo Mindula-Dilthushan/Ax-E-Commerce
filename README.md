@@ -39,3 +39,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Sign In 03 : Text Fields Color Changing
 ![images](https://github.com/Mindula-Dilthushan/Ax-E-Commerce/blob/master/Ax-E-Util/Project%20ScreenShots/Sign%20In%2003.png)
+
+### Sign Up 
+![images](https://github.com/Mindula-Dilthushan/Ax-E-Commerce/blob/master/Ax-E-Util/Project%20ScreenShots/Sign%20Up%20Form.png)
