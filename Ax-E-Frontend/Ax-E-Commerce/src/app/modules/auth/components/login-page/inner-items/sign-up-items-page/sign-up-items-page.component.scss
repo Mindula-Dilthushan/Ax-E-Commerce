@@ -1,7 +1,83 @@
 //Mindula Dilthushan
 //Alpha X Software Company
 //Ax E Commerce v1.0.0
-//21-06-28
-.linkLogin{
+//21-06-29
+.firstName-field {
+  margin-right: 20px;
+  margin-top: 50px;
+}
+
+.email-field {
+  top: -12px;
+  width: 423px;
+}
+
+.password-field {
+  top: -24px;
+  margin-right: 20px;
+}
+
+.confirm-password-field {
+  top: -24px;
+}
+
+.btnSignUp {
+  top: -30px;
+  width: 100%;
+  color: #2b84bf;
+  font-weight: bold;
+}
+
+.btnSignUp:hover {
+  background-color: #4eb4e3;
+  color: white;
+}
+
+.txtSignUp {
+  padding: 10px;
+  margin: 0;
+  color: #939393;
+  font-weight: bolder;
+  position: relative;
+  left: 150px;
+  top: -30px;
+}
+
+.imgSocial {
+  position: absolute;
+  top: 328px;
+  height: 30px;
+
+  .fb {
+    position: absolute;
+    left: 155px;
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .twitter {
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+  }
+
+  .google {
+    position: absolute;
+    left: 245px;
+    width: 30px;
+    cursor: pointer;
+  }
+}
+
+.linkSignIn {
   position: fixed;
+  left: 58.5%;
+  top: 590px;
+  color: #939393;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.linkSignIn:hover {
+  color: #4eb4e3;
 }

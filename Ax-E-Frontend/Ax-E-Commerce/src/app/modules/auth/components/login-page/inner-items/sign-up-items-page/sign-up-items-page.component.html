@@ -1,8 +1,65 @@
 <!--Mindula Dilthushan-->
 <!--Alpha X Software Company-->
 <!--Ax E Commerce v1.0.0-->
-<!--21-06-28-->
-<p routerLinkActive="active-route" routerLink="/auth/login/access" class="linkLogin" style="display: block">
-  <span style="font-weight: bold">Login</span>
-</p>
+<!--21-06-29-->
+<div class="register-outer">
+  <form class="login-form" [formGroup]="registerForm">
 
+    <!--Star first Name  Text Fields-->
+    <mat-form-field class="firstName-field" appearance="outline">
+      <input type="text" matInput formControlName="firstName" class="txtFirstName" placeholder="    Enter first name" style="font-size: 0.9rem">
+      <mat-error *ngIf="registerForm.get('firstName')?.touched && !registerForm.get('firstName')?.invalid">
+        <p style="position:relative; top: 10%">Please enter a valid first name</p>
+      </mat-error>
+    </mat-form-field>
+    <!--End first Name Text Fields-->
+
+    <!--Star last name Text Fields-->
+    <mat-form-field class="lastName-field" appearance="outline">
+      <input type="text" matInput formControlName="lastName" class="txtLastName" placeholder="    Enter last name" style="font-size: 0.9rem">
+      <mat-error *ngIf="registerForm.get('lastName')?.touched && !registerForm.get('lastName')?.invalid">
+        <p style="position:relative; top: 10%">Please enter a valid last name</p>
+      </mat-error>
+    </mat-form-field>
+    <!--End last name Text Fields-->
+
+    <!--Star Email Text Fields-->
+    <mat-form-field class="email-field" appearance="outline">
+      <input type="email" matInput formControlName="email" class="txtEmail" placeholder="    Enter Email Address" style="font-size: 0.9rem">
+      <mat-error *ngIf="registerForm.get('email')?.touched && !registerForm.get('email')?.invalid">
+        <p style="position:relative;">Please enter a valid Email Address</p>
+      </mat-error>
+    </mat-form-field>
+    <!--End Email Text Fields-->
+
+    <!--Star Password Text Fields-->
+    <mat-form-field class="password-field" appearance="outline">
+      <input type="password" matInput formControlName="password" class="txtPassword"  placeholder="    Enter Password" style="font-size: 0.9rem;">
+      <mat-error *ngIf="registerForm.get('password')?.touched && !registerForm.get('password')?.invalid">
+        <p>Please enter a valid password</p>
+      </mat-error>
+    </mat-form-field>
+    <!--End Password Text Fields-->
+
+    <!--Star Confirm Password Text Fields-->
+    <mat-form-field class="confirm-password-field" appearance="outline">
+      <input type="password" matInput formControlName="confirmPassword" class="txtConfirmPassword"  placeholder="    Enter confirm password" style="font-size: 0.9rem;">
+      <mat-error *ngIf="registerForm.get('confirmPassword')?.touched && !registerForm.get('confirmPassword')?.invalid">
+        <p>Please enter a valid confirm password</p>
+      </mat-error>
+    </mat-form-field>
+    <!--End Confirm Password Text Fields-->
+
+
+    <button [disabled]="registerForm.invalid" mat-raised-button class="btnSignUp">Sign Up</button>
+    <div class="txtSignUp"> <p>Or Sign Up Using </p></div>
+    <div class="imgSocial">
+      <img class="fb" src="assets/fb.png">
+      <img class="twitter" src="assets/twitter.png">
+      <img class="google" src="assets/g+.png">
+    </div>
+  </form>
+  <li routerLinkActive="active-route" routerLink="/auth/login/access" class="linkSignIn" style="display: block">
+    <span style="font-weight: bold">Already have an account ? Sign In</span>
+  </li>
+</div>
